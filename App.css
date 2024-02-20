@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* body{background-color: black;} */
+#carousel {
+    max-height: 600px;
+}
+
+
+.cardfood{
+    overflow: hidden;
+}
+.foodcardImg {
+
+
+
+
+    /* transition: transform .2s; */
+    /* Animation */
+    /* overflow: hidden; */
+    /* margin: 0 auto; */
+
+
+
+}
+
+/* .foodcardImg:hover {
+    transform: scale(1.1); */
+    
+/* .borderme:hover{
+    border:1px solid black
+} */
+
+
+
+.ok{
+    position: fixed;
+    top:50%;
+    left:50%;
+   transform: "translate(-50%,-50%)";
+   z-index: 1000;
+   height: 90%;
+   width: 90%;
+}
+.flexdisplaylogin{display: flex;justify-content: space-between;}
+.cardfood{display: flex;}
+.footername{text-align: center;}
+@media  screen and (max-width: 900px) {
+    .flexdisplaylogin{display: block
+        ;margin-left: 37px;
+
+    }
+
+    .borderme{margin-top: 20px;margin-left:-10px ;}
+    .cardfood{flex-direction: column;}
+    .footername{text-align: center;}
+
+}
